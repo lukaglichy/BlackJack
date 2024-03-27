@@ -42,9 +42,19 @@ function rendergame(){
         message = "do you want to draw a card"
     }else if (sum === 21){
         message = "you have won with blackjack"
+        let player = {
+            name: "CASH: ",
+            money: 400
+        }
+        cash.textContent = player.name + player.money + "$"
         blackjack = true
     }else if (sum > 21){
         message = "you have lost the game"
+        let player = {
+            name: "CASH: ",
+            money: 100
+        }
+        cash.textContent = player.name + player.money + "$"
         alive = false
     }
     black.textContent = message
