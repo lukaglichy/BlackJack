@@ -1,0 +1,27 @@
+body{
+    background-image: url(cloth.jpg);
+    background-size: cover;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 19px;
+}
+button{
+    width: 150px;
+    color: #016f32;
+    background-color: goldenrod;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 2px;
+}
+h1{
+    font-family: Arial;
+    font-weight: bold;
+    color: goldenrod;
+}
